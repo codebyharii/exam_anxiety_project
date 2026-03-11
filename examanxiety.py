@@ -8,7 +8,7 @@ data = pd.read_csv("dataset.csv")
 X = data[['sleep','study','nervous','heart','focus']]
 y = data['anxiety']
 
-# Train model
+# Train modell
 model = DecisionTreeClassifier()
 model.fit(X,y)
 
